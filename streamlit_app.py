@@ -14,7 +14,7 @@ if bottonApriori:
   archivo = st.file_uploader("Ingresa tu archivo .csv")
   st.markdown("Este es el contenido del archivo")
   st.dataframe(archivo)
-bottonMetricas = stbutton("Métricas de distancia")
+bottonMetricas = st.button("Métricas de distancia")
 if bottonMetricas:
   archivo = st.file_uploader("Ingresa tu archivo .csv")
   st.markdown("Este es el contenido del archivo para métricas")
