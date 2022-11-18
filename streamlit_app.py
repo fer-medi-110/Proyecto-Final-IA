@@ -10,4 +10,4 @@ st.header("Bienvenidos")
 st.text("Puedes elegir 3 algoritmos de Machine Learning") 
 st.markdown("**A priori | Métricas de distancia**")
 archivo = st.file_uploader("Ingresa tu archivo .csv")
-st.table(archivo)
+archivo
