@@ -14,8 +14,7 @@ st.sidebar.markdown("Métricas de distancia")
 st.sidebar.markdown("Clustering")
 defin_expander = defin.beta_expander("¿Qué es Apriori?")
 with defin:
-  defin_expander.write("Es un algoritmo para crear sistemas de recomendaciones")
-with 
+  defin_expander.write("Es un algoritmo para crear sistemas de recomendaciones") 
 bottonApriori = st.button("A priori")
 if bottonApriori:
   archivo = st.file_uploader("Ingresa tu archivo .csv")
