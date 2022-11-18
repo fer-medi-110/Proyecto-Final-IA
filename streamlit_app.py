@@ -1,7 +1,7 @@
-get-pip.py
 import streamlit as st
 import pandas as pd
 import numpy as np
+import apriori
 #import matplotlib.pyplot as plt
 #import apriori
 st.title("IA Algorithms Web App")
