@@ -13,8 +13,6 @@ st.sidebar.header("Algoritmos de IA Disponibles")
 st.sidebar.markdown("Apriori")
 st.sidebar.markdown("Métricas de distancia")
 st.sidebar.markdown("Clustering")
-def pagApriori():
-  st.title("Sección Apriori")
 bottonApriori = st.button("A priori")
 if bottonApriori:
   pagApriori()
