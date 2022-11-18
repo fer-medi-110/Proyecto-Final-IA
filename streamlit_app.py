@@ -1,4 +1,4 @@
-#pip install apyori
+get-pip.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -19,3 +19,4 @@ if bottonMetricas:
   archivo = st.file_uploader("Ingresa tu archivo .csv")
   st.markdown("Este es el contenido del archivo para métricas")
   st.dataframe(archivo)
+st.
