@@ -8,6 +8,7 @@ st.subheader("¡¡¡Bienvendidos a mi web interactiva de Machine Learning!!!")
 st.header("Bienvenidos")
 st.text("Puedes elegir 3 algoritmos de Machine Learning") 
 st.markdown("**A priori | Métricas de distancia**")
+st.sidebar.header("Algoritmos de IA Disponibles")
 bottonApriori = st.button("A priori")
 if bottonApriori:
   archivo = st.file_uploader("Ingresa tu archivo .csv")
