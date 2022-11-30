@@ -14,7 +14,6 @@ boton1 = st.sidebar.button("Apriori")
 boton2 = st.sidebar.button("Métricas de distancia")
 boton3 = st.sidebar.button("Clustering")
 boton4 = st.sidebar.button("Regresión logística")
-boton1.background = "#FF0000"
 if (boton1):
   st.text("Bienvenido a la sección Apriori")
   archivo = st.file_uploader("Ingresa tu archivo .csv")
