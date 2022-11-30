@@ -18,5 +18,7 @@ if (boton1):
   st.text("Bienvenido a la sección Apriori")
   archivo = st.file_uploader("Ingresa tu archivo .csv")
   st.markdown("Este es el contenido del archivo")
-  st.dataframe(archivo)
+  if archivo != NULL:
+    st.markdown("Este es el contenido del archivo")
+    st.dataframe(archivo)
   st.write("Apriori")
