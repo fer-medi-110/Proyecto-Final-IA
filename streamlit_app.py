@@ -15,6 +15,7 @@ boton2 = st.sidebar.button("Métricas de distancia")
 boton3 = st.sidebar.button("Clustering")
 boton4 = st.sidebar.button("Regresión logística")
 archivo = st.file_uploader("Ingresa tu archivo .csv")
+st.dataframe(archivo)
 if (boton1):
   st.text("Bienvenido a la sección Apriori")
   #archivo = st.file_uploader("Ingresa tu archivo .csv")
