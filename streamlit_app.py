@@ -17,8 +17,7 @@ boton4 = st.sidebar.button("Regresión logística")
 if (boton1):
   st.text("Bienvenido a la sección Apriori")
   archivo = st.file_uploader("Ingresa tu archivo .csv")
-  st.markdown("Este es el contenido del archivo")
   if (archivo != None):
     st.markdown("Este es el contenido del archivo")
-    st.dataframe(archivo)
+    arch1 = open(archivo)
   st.write("Apriori")
