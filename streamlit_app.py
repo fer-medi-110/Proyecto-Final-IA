@@ -16,9 +16,10 @@ boton3 = st.sidebar.button("Clustering")
 boton4 = st.sidebar.button("Regresión logística")
 archivo = st.file_uploader("Ingresa tu archivo .csv")
 if (boton1):
-  st.text("Bienvenido a la sección Apriori")
+ # st.text("Bienvenido a la sección Apriori")
   #archivo = st.file_uploader("Ingresa tu archivo .csv")
-  if (archivo != None):
-    st.markdown("Este es el contenido del archivo")
-    arch1 = open(archivo)
-  st.write("Apriori")
+ # if (archivo != None):
+  #  st.markdown("Este es el contenido del archivo")
+   # arch1 = open(archivo)
+  #st.write("Apriori")
+  st.ref("apriori.py")
