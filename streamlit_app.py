@@ -22,4 +22,4 @@ if (boton1):
   #  st.markdown("Este es el contenido del archivo")
    # arch1 = open(archivo)
   #st.write("Apriori")
-  st.ref("apriori.py")
+  st.link("apriori.py")
