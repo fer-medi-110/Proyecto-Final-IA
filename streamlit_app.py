@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 #import matplotlib.pyplot as plt
 #import apriori
-streamlit run [entrypoint file]
 st.title("IA Algorithms Web App")
 st.subheader("¡¡¡Bienvendidos a mi web interactiva de Machine Learning!!!")
 st.header("Bienvenidos")
@@ -22,5 +21,5 @@ if (boton1):
  # if (archivo != None):
   #  st.markdown("Este es el contenido del archivo")
    # arch1 = open(archivo)
-  #st.write("Apriori")
+  st.markdown("Apriori")
   
